@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EarthStone Landscaping</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #2f4f2f;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header img {
+      max-width: 150px;
+    }
+    header h1 {
+      margin: 1rem 0 0.5rem;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #2f4f2f;
+    }
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    form button {
+      background-color: #2f4f2f;
+      color: white;
+      border: none;
+      padding: 0.75rem 2rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Final logo for tshirts.png" alt="EarthStone Landscaping Logo">
+    <h1>EarthStone Landscaping</h1>
+    <p>Committed to Quality, Committed to you</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>We specialize in all things hardscape and landscaping — from patios and retaining walls to full outdoor transformations. With a commitment to quality and detail, EarthStone Landscaping delivers outdoor spaces that stand the test of time.</p>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+    <ul>
+      <li>Patios & Walkways</li>
+      <li>Retaining Walls</li>
+      <li>Garden & Lawn Installations</li>
+      <li>Sod & Mulch</li>
+      <li>Outdoor Living Spaces</li>
+      <li>Custom Hardscape Designs</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Request a Quote</h2>
+    <form action="https://formspree.io/f/xwpljwjw" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <input type="text" name="location" placeholder="Project Location" required>
+      <select name="service" required>
+        <option value="">Select a Service</option>
+        <option value="Patio">Patio</option>
+        <option value="Retaining Wall">Retaining Wall</option>
+        <option value="Sod Installation">Sod Installation</option>
+        <option value="Other">Other</option>
+      </select>
+      <input type="date" name="start_date" placeholder="Preferred Start Date">
+      <select name="budget" required>
+        <option value="">Estimated Budget</option>
+        <option value="Under $1,000">Under $1,000</option>
+        <option value="$1,000–$5,000">$1,000–$5,000</option>
+        <option value="$5,000–$10,000">$5,000–$10,000</option>
+        <option value="$10,000–$20,000">$10,000–$20,000</option>
+        <option value="$20,000+">$20,000+</option>
+      </select>
+      <textarea name="message" placeholder="Project Description" rows="5"></textarea>
+      <button type="submit">Send Request</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Contact us: info@earthstonelandscaping.com | (555) 123-4567</p>
+    <p>&copy; 2025 EarthStone Landscaping. All rights reserved.</p>
+  </footer>
+</body>
+</html>
